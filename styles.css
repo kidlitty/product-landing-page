@@ -1,0 +1,188 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: #000 !important;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-img {
+    width: 3.5rem;
+    padding: 1.2rem 0.3rem 1.2rem 1.2rem;
+}
+
+#header h1 {
+    padding-right: 1.2rem;
+}
+
+#nav-bar {
+    position: absolute;
+    right: 0;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+#main-section {
+    margin-top: 100px;
+}
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#features-section div {
+    margin: 4rem;
+}
+
+#features-section i {
+    font-size: 2rem;
+}
+
+#features-section h3 {
+    font-size: 1.5rem;
+}
+
+#features-section p {
+    font-size: 1rem;
+}
+
+#features-section-header {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#video-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#pricing-section-header {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.pricing-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+    .pricing-section div {
+        border: 2px solid #555;
+        margin: 2rem;
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+.one_time-plans {
+    margin: 0.4rem 0 !important;
+    width: 93% !important;
+    padding: 0 5px !important;
+    color: #205295;
+    border-color: #205295 !important;
+}
+
+ul {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #181823;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    height: 2rem;
+}
+
+#individual-plan-button {
+    margin-top: 5rem;
+}
+
+#duo-plan-button {
+    margin-top: 3.4rem;
+}
+
+#family-plan-button {
+    margin-top: 0.4rem;
+}
+
+#form-section {
+    margin: 10rem;
+    text-align: center;
+}
+
+    #form-section h3 {
+        font-size: 2rem;
+        margin-bottom: 60px;
+    }
+
+#email {
+    width: 14rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#submit {
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid;
+    color: #fff;
+    background-color: #181823;
+}
+
+@media screen and (max-width: 760px) {
+    .pricing-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .features-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #form-section {
+        margin: 5rem 2rem;
+        text-align: center;
+    }
+}
